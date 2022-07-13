@@ -1,0 +1,176 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+  }
+  
+  .container {
+    padding-left: 100px;
+    min-height: 100vh;
+    background-color: wheat;
+  }
+  
+  .wrap {
+    display: flex;
+    position: relative;
+    padding: 30px;
+  }
+  
+  .btn {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .option-btn {
+    background-color: #BB9799;
+    border-right: 15px solid white;
+    border-bottom: 2px solid white;
+  }
+  
+  .option-child-btn {
+    background-color: rgba(131, 75, 80, 0.7);
+  }
+  
+  .option-btn:hover {
+    background-color: rgba(131, 75, 80, 0.7);
+  }
+  .option-img {
+    width: 80px;
+    padding: 6px;
+    transition: all 0.3s;
+  }
+  
+  .window-wrap {
+    display: flex;
+    width: 873px;
+    order: 1;
+    background-color: #ffffff;
+    padding: 22px;
+    padding-left: 137px
+  }
+  
+  .dressing_room {
+    border: 2px solid black;
+    width: 642px;
+    position: relative;
+  }
+  
+  .dressing_room .active {
+    position: absolute;
+  } 
+  
+  .option-child_wrap {
+    position: absolute;
+    left: 148px;
+  }
+  
+  .body_color-1 {
+    position: absolute;
+    z-index: 1;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .eyes-2 {
+    position: absolute;
+    z-index: 3;
+    width: 4%;
+    top: 178px;
+    left: 54px;
+  }
+  
+  .head-3 {
+    position: absolute;
+    z-index: 4;
+    top: 142px;
+    left: 29px;
+  }
+  
+  .head-3-2 {
+    top: 143px;
+    left: 30px;
+  }
+  
+  .head-3-3 {
+    top: 118px;
+  }
+  
+  .mouth-4 {
+    position: absolute;
+    z-index: 3;
+    width: 5%;
+    top: 200px;
+    left: 50px;
+  }
+  
+  .mouth-4-2 {
+    left: 50px;
+    top: 200px;
+  }
+  
+  .mouth-4-3 {
+    top: 193px;
+    left: 55px;
+  }
+  
+  .spots-5 {
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .spots-5-1 {
+    width: 80%;
+    top: 185px;
+    left: 86px;
+  }
+  
+  .spots-5-2 {
+    width: 76%;
+    top: 219px;
+    left: 98px;
+  }
+  
+  .spots-5-3 {
+    width: 80%;
+    top: 207px;
+    left: 95px;
+  }
+  
+  .spots-5-4 {
+    width: 64%;
+    top: 270px;
+    left: 142px;
+  }
+  
+  .scale-6 {
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .scale-6-1 {
+    width: 83%;
+    top: 166px;
+    left: 79px;
+  }
+  
+  .scale-6-2 {
+    width: 80%;
+    top: 170px;
+    left: 91px;
+  }
+  
+  .scale-6-3 {
+    width: 80%;
+    top: 175px;
+    left: 94px;
+  }
